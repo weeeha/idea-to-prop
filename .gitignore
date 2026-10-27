@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+node_modules/
+
+# Local staging and generated caches; reviewed assets need deliberate storage.
+local-assets/
+scratch/
+cache/
+*.blend1
+*.blend2

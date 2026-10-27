@@ -1,0 +1,51 @@
+{
+  "record_format_version": "0.1",
+  "record_revision": "record-v001",
+  "asset_id": "FILM-PROP-001",
+  "display_name": "Replace with the prop name",
+  "film_id": null,
+  "canonical_record_uri": null,
+  "wiki_uri": null,
+  "story_context": null,
+  "appearance": {
+    "selected_visual_revision_id": null,
+    "status": "candidate",
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  "sources": [],
+  "revisions": [
+    {
+      "revision_id": "visual-v001",
+      "kind": "visual",
+      "parent_revision_ids": [],
+      "review_status": "candidate",
+      "files": [],
+      "geometry": {
+        "units": null,
+        "up_axis": null,
+        "forward_axis": null,
+        "origin_description": null,
+        "dimensions_axis_order": null,
+        "dimensions": null
+      },
+      "changes": [],
+      "limitations": [],
+      "evidence": [
+        {
+          "check": "visual-review",
+          "status": "not-checked",
+          "artifact_uri": null,
+          "checked_at": null,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "status": "not-reviewed",
+    "audience": null,
+    "license": null,
+    "rights_notes": null
+  }
+}
