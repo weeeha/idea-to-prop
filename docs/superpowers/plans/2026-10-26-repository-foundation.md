@@ -42,8 +42,10 @@
 
 **Interfaces:** Publishes the reviewed documentation branch against the minimal `main` baseline.
 
-- [ ] Create `weeeha/idea-to-prop` as a public repository.
-- [ ] Push the baseline and documentation branch; open and attach the PR.
-- [ ] Verify repository visibility, PR contents, and final local state.
+- [x] Create `weeeha/idea-to-prop` as a public repository.
+- [x] Push the baseline and documentation branch; open and attach the PR.
+- [x] Verify repository visibility, PR contents, and final local state.
 
 Documentation checks are sufficient for this delivery; there is no application behavior to test.
+
+Verification recorded: 12 text files, 24 valid local Markdown links, valid JSON with consistent revision references and unknown-value fields, clean diff whitespace, and no local-path or credential-pattern findings. Independent documentation review found no blocking or actionable issues. Unauthenticated repository access confirmed public visibility; PR #1 is open against `main`.
