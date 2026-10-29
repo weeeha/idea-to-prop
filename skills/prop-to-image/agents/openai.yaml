@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prop to Image"
+  short_description: "Reskin prop photos with traceable 3D handoffs"
+  default_prompt: "Use $prop-to-image to explore a new appearance for this prop and prepare a reviewed image for 3D reconstruction."

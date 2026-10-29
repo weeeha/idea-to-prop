@@ -10,6 +10,8 @@ Assign an asset ID and record its film, story purpose, visual constraints, inten
 
 ## 2. Explore and select the appearance
 
+When starting with an existing physical object, use [Prop to Image](prop-to-image.md) to preserve the original photographs, define the allowed appearance changes, and review whether generated skins retain the required shape.
+
 Preserve concept candidates, source references, prompts, model identifiers, settings, and any available seeds. Record which image was selected and who selected it. Candidate images remain distinct from the selected appearance.
 
 **Output:** a selected concept plus its provenance. Selection of one view does not approve invented reverse or underside details.
