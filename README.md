@@ -1,5 +1,13 @@
 # Idea to Prop
 
+**Problem.** A prop design changes form from concept art to 3D model, texture, VFX reference and printed part, and the versions lose track of each other.
+
+**Idea.** One stable asset ID per prop, with a visual master, a reference pack, a VFX derivative and a print derivative that each carry their own version, sources and evidence. A change made for printing becomes its own derivative and never silently overwrites the visual master.
+
+**Built.** Workflow docs and templates, an RG02 worked example, and a local Python CLI with a Codex skill (Prop to Image) that prepares generation requests, registers results, records the selection and exports an image-to-3D handoff. Image generation itself runs in Codex, and no physical print or production VFX check has been done. 5 commits on 3 days, Oct 27 to Oct 30, 2026.
+
+**Decision.** A shared workflow repository linked to film-owned records, instead of keeping the workflow inside one film's repo. Reusable process stays apart from film-specific assets, and each film keeps its story context and approved appearances.
+
 A workflow for turning an idea into a reusable film asset and a physical prop.
 
 The same design should survive concept exploration, 3D reconstruction, texture generation, VFX, and fabrication. This project documents how to keep those versions connected while preserving the visual identity of the original prop.
