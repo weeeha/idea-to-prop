@@ -8,6 +8,8 @@
 
 **Decision.** A shared workflow repository linked to film-owned records, instead of keeping the workflow inside one film's repo. Reusable process stays apart from film-specific assets, and each film keeps its story context and approved appearances.
 
+![Real run of the Prop to Image CLI on a sample image: init, prepare, import, select, gallery and handoff commands with their output, and the HTML gallery it wrote. The source and candidate images are simple sample fixtures, not model output.](docs/screenshots/prop-to-image-run.png)
+
 A workflow for turning an idea into a reusable film asset and a physical prop.
 
 The same design should survive concept exploration, 3D reconstruction, texture generation, VFX, and fabrication. This project documents how to keep those versions connected while preserving the visual identity of the original prop.
